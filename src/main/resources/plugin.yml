@@ -1,0 +1,24 @@
+name: TeleportAdditions
+version: '${project.version}'
+main: net.daechler.teleportadditions.TeleportAdditions
+api-version: '1.20'
+authors: [Daechler]
+description: Adds special teleportation options.
+commands:
+  center:
+    description: Teleport to the center of the current block
+    usage: /<command>
+    permission: teleportadditions.center
+    aliases: [centre]
+
+  forward:
+    description: Make the player look straight forward
+    usage: /<command>
+    permission: teleportadditions.forward
+    aliases: [fw]
+
+  centerforward:
+    description: Teleport to the center of the block and look straight forward
+    usage: /<command>
+    permission: teleportadditions.centerforward
+    aliases: [cf]
